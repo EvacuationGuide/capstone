@@ -12,7 +12,6 @@ public class MemberDTO {
     private String mail;
     private String nickname;
 
-    // private Address address;
 
     @Builder
     public MemberDTO(String password, String mail, String nickname){
