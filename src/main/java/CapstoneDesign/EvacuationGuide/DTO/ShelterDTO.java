@@ -14,6 +14,8 @@ public class ShelterDTO {
     private int capacity;
     private Address address;
 
+    private int test;
+
     ShelterDTO shelterDTO = ShelterDTO.builder()
             .name(name)
             .capacity(capacity)
