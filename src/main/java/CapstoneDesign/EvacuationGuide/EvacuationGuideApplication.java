@@ -9,6 +9,8 @@ public class EvacuationGuideApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(EvacuationGuideApplication.class, args);
+		System.out.printf("hello");
+
 	}
 
 }
