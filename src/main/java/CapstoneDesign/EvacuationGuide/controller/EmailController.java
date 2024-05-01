@@ -23,6 +23,6 @@ public class EmailController {
     @GetMapping("/sendEmail")
     public String sendEmail(@RequestParam String to) {
         emailService.sendEmail(to, "Test Email", "This is a test email from Spring Boot application.");
-        return "Email sent successfully!!";
+        return "mail/defalut";
     }
 }

@@ -11,12 +11,3 @@ oauth:
 
 cap:
   key: cap123
-
-mail:
-  host: smtp.gmail.com
-  port: 587
-  username: testaddressbaek@gmail.com
-  password: @@qwer1234
-  properties:
-    mail.smtp.auth: true
-    mail.smtp.starttls.enable: true
