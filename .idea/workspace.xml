@@ -5,27 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="339e990f-0e0f-44c8-a438-f09aac791717" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/CapstoneDesign/EvacuationGuide/controller/EmailController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CapstoneDesign/EvacuationGuide/service/EmailService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.6/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.6/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.6/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.6/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.6/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.6/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/EvacuationGuide.main.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/CapstoneDesign/EvacuationGuide/DTO/MemberDTO$MemberDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/CapstoneDesign/EvacuationGuide/DTO/MemberDTO$MemberDTOBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/CapstoneDesign/EvacuationGuide/DTO/MemberDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/CapstoneDesign/EvacuationGuide/DTO/MemberDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/CapstoneDesign/EvacuationGuide/repository/DisasterNewsRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/CapstoneDesign/EvacuationGuide/repository/DisasterNewsRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/CapstoneDesign/EvacuationGuide/repository/MemberRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/CapstoneDesign/EvacuationGuide/repository/MemberRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/CapstoneDesign/EvacuationGuide/repository/ShelterRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/CapstoneDesign/EvacuationGuide/repository/ShelterRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/CapstoneDesign/EvacuationGuide/controller/EmailController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/CapstoneDesign/EvacuationGuide/controller/EmailController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/CapstoneDesign/EvacuationGuide/DTO/MemberDTO$MemberDTOBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/CapstoneDesign/EvacuationGuide/DTO/MemberDTO$MemberDTOBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/CapstoneDesign/EvacuationGuide/DTO/MemberDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/CapstoneDesign/EvacuationGuide/DTO/MemberDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/CapstoneDesign/EvacuationGuide/controller/KaKaoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/CapstoneDesign/EvacuationGuide/controller/KaKaoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/CapstoneDesign/EvacuationGuide/domain/Member$MemberBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/CapstoneDesign/EvacuationGuide/domain/Member$MemberBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/CapstoneDesign/EvacuationGuide/domain/Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/CapstoneDesign/EvacuationGuide/domain/Member.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/CapstoneDesign/EvacuationGuide/domain/Shelter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/CapstoneDesign/EvacuationGuide/domain/Shelter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/CapstoneDesign/EvacuationGuide/repository/DisasterNewsRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/CapstoneDesign/EvacuationGuide/repository/DisasterNewsRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/CapstoneDesign/EvacuationGuide/repository/MemberRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/CapstoneDesign/EvacuationGuide/repository/MemberRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/CapstoneDesign/EvacuationGuide/repository/ShelterRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/CapstoneDesign/EvacuationGuide/repository/ShelterRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/CapstoneDesign/EvacuationGuide/service/KaKaoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/CapstoneDesign/EvacuationGuide/service/KaKaoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/templates/kakaoCI/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/templates/kakaoCI/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CapstoneDesign/EvacuationGuide/controller/EmailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CapstoneDesign/EvacuationGuide/controller/EmailController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +56,12 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="EvacuationGuide" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -74,12 +93,14 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Application.EvacuationGuideApplication.executor": "Run",
+    "Gradle.Build capstone.executor": "Run",
+    "Gradle.EvacuationGuideApplicationTests.executor": "Run",
     "Gradle.Load Gradle Dependencies.executor": "Run",
     "Gradle.capstone [:EvacuationGuideApplication.main()].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "mail__Baek",
     "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "SDKs",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"

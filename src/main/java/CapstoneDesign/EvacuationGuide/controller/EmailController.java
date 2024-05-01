@@ -20,9 +20,9 @@ public class EmailController {
         this.emailService = emailService;
     }
 
-    @GetMapping("/send-email")
-    public String sendEmail(@RequestParam String to, @RequestParam String subject, @RequestParam String text) {
-        emailService.sendEmail(to, subject, text);
+    @GetMapping("/sendEmail")
+    public String sendEmail(@RequestParam String to) {
+        emailService.sendEmail(to, "Test Email", "This is a test email from Spring Boot application.");
         return "Email sent successfully!";
     }
 }
