@@ -10,9 +10,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class EmailController {
 
-    //MemberRepository memberRepository;
-
-
     private final EmailService emailService;
 
     @Autowired
@@ -20,15 +17,17 @@ public class EmailController {
         this.emailService = emailService;
     }
 
+    //특정 멤버에게 메일 전송
     @GetMapping("/sendEmail")
     public String sendEmail(@RequestParam("to") String to) {
         emailService.sendEmail(to, "Test Email", "This is a test email from Spring Boot application.");
-        return "mail/defalut";
+        return "mail/default";
     }
 
-//    @GetMapping("/sendEmailEveryone")
-//    public String sendEmailAll() {
-//        emailService.sendEmailEveryone("Test Email", "This is a test email from Spring Boot application.");
-//        return "mail/defalut";
-//    }
+    //여러 멤버에게 메일 전송
+    @GetMapping("/sendEmailAll")
+    public String sendEmailAll() {
+        emailService.sendEmailAll("Test Email", "This is a test email from Spring Boot application.");
+        return "mail/default";
+    }
 }

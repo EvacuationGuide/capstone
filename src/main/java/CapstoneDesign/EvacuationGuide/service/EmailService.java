@@ -7,20 +7,20 @@ import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
 
 @Service
 public class EmailService {
 
     private final JavaMailSender emailSender;
+    private final MemberRepository memberRepository;
 
     @Autowired
-    private MemberRepository memberRepository;
-
-    @Autowired
-    public EmailService(JavaMailSender emailSender) {
+    public EmailService(JavaMailSender emailSender, MemberRepository memberRepository) {
         this.emailSender = emailSender;
+        this.memberRepository = memberRepository;
     }
+
+
 
     public void sendEmail(String to, String subject, String text) {
         SimpleMailMessage message = new SimpleMailMessage();
@@ -30,23 +30,33 @@ public class EmailService {
         emailSender.send(message);
     }
 
-    public void sendEmailEveryone(String subject, String text) {
-        Member member1 = new Member(10L, "100", "wonjun99526@naver.com","testMmeber1",false);
-        Member member2 = new Member(11L, "110", "wonjun995261@naver.com","testMmeber2",false);
-        Member member3 = new Member(12L, "120", "wonjun995262@naver.com","testMmeber3",false);
-        Member member4 = new Member(13L, "130", "wonjun995263@naver.com","testMmeber4",false);
+    public void sendEmailAll(String subject, String text) {
+        //예시 위해 테스트 멤버 생성
+        Member member1 = new Member("100", "wonjun99526@naver.com","testMember1",false);
+        Member member2 = new Member("110", "wonjun99526@naver.com","testMember1",false);
+        Member member3 = new Member("120", "wonjun99526@naver.com","testMember1",false);
+        Member member4 = new Member("130", "wonjun995263@naver.com","testMember4",false);
         memberRepository.save(member1);
         memberRepository.save(member2);
         memberRepository.save(member3);
         memberRepository.save(member4);
-        Optional<Member> byMail = memberRepository.findByMail("wonjun99526@naver.com");
 
+        //조회는 다른 멤버필드로 대체 가능. 단, 그러면 MemberRepository에 메소드 만들어야함
+        List<Member> byNickname = memberRepository.findByNickname("testMember1");
+
+        for (Member member : byNickname) {
+            System.out.println("member.getId() = " + member.getId());
+            System.out.println("member.getMail() = " + member.getMail());
+            System.out.println("member.getNickname() = " + member.getNickname());
+            System.out.println("member.getPassword() = " + member.getPassword());
 
             SimpleMailMessage message = new SimpleMailMessage();
-            message.setTo(byMail.get().getMail());
+            message.setTo(member.getMail());
             message.setSubject(subject);
             message.setText(text);
             emailSender.send(message);
+        }
+
 
     }
 }

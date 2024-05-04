@@ -10,5 +10,7 @@ import java.util.Optional;
 @Repository
 public interface MemberRepository extends JpaRepository<Member,Long> {
     Optional<Member> findByMail(String mail);
-    //List<Member> findByMailAll(String mail);
+
+    //List로 받으면 전체 조회
+    List<Member> findByNickname(String nickname);
 }
