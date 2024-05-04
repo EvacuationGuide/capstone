@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 @Controller
 public class EmailController {
 
-    MemberRepository memberRepository;
+    //MemberRepository memberRepository;
 
 
     private final EmailService emailService;
@@ -25,4 +25,10 @@ public class EmailController {
         emailService.sendEmail(to, "Test Email", "This is a test email from Spring Boot application.");
         return "mail/defalut";
     }
+
+//    @GetMapping("/sendEmailEveryone")
+//    public String sendEmailAll() {
+//        emailService.sendEmailEveryone("Test Email", "This is a test email from Spring Boot application.");
+//        return "mail/defalut";
+//    }
 }

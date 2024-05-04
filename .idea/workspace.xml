@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="339e990f-0e0f-44c8-a438-f09aac791717" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/8.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/CapstoneDesign/EvacuationGuide/controller/EmailController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/CapstoneDesign/EvacuationGuide/controller/EmailController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/CapstoneDesign/EvacuationGuide/service/EmailService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/CapstoneDesign/EvacuationGuide/service/EmailService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CapstoneDesign/EvacuationGuide/controller/EmailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CapstoneDesign/EvacuationGuide/controller/EmailController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CapstoneDesign/EvacuationGuide/repository/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CapstoneDesign/EvacuationGuide/repository/MemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CapstoneDesign/EvacuationGuide/service/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CapstoneDesign/EvacuationGuide/service/EmailService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +70,7 @@
     "Gradle.Load Gradle Dependencies.executor": "Run",
     "Gradle.capstone [:EvacuationGuideApplication.main()].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "mail__Baek",
+    "git-widget-placeholder": "test__mail__05.04",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
