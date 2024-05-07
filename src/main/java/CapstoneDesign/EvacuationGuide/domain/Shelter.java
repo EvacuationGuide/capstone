@@ -15,14 +15,23 @@ public class Shelter {
     private Long id;
 
     private String name;
-    private int Capacity;
+    private String address_street;
+    private String address_parcel;
+    private int postcode;
+    private Long area;
+    private int occupancy;
+    private Long latitude_degrees;
+    private Long latitude_minutes;
+    private Long latitude_seconds;
+    private Long longitude_degrees;
+    private Long longitude_minutes;
+    private Long longitude_seconds;
+    private Long latitude;
+    private Long longitude;
+    private Long x;
+    private Long y;
 
-    @Embedded
-    private Address address;
 
-    public Shelter(String name, int capacity, Address address) {
-        this.name = name;
-        Capacity = capacity;
-        this.address = address;
-    }
+
+
 }
