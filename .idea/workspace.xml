@@ -6,9 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="339e990f-0e0f-44c8-a438-f09aac791717" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CapstoneDesign/EvacuationGuide/controller/ShelterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CapstoneDesign/EvacuationGuide/controller/ShelterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CapstoneDesign/EvacuationGuide/domain/Shelter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CapstoneDesign/EvacuationGuide/domain/Shelter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/CapstoneDesign/EvacuationGuide/service/shelter/ShelterService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/CapstoneDesign/EvacuationGuide/service/shelter/ShelterService$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/CapstoneDesign/EvacuationGuide/service/shelter/ShelterService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/CapstoneDesign/EvacuationGuide/service/shelter/ShelterService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/CapstoneDesign/EvacuationGuide/service/shelter/ShelterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CapstoneDesign/EvacuationGuide/service/shelter/ShelterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CapstoneDesign/EvacuationGuide/usefulMethod/Haversine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CapstoneDesign/EvacuationGuide/usefulMethod/Haversine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
