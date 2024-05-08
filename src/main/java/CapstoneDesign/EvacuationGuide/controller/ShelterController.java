@@ -18,9 +18,10 @@ public class ShelterController {
         this.shelterService = shelterService;
     }
 
-    @GetMapping("/Shelters")
+    @GetMapping("/allShelters")
     public String Shelters() throws IOException {
         shelterService.saveJson();
+        shelterService.AllShelters();
 
         return "mail/default";
     }
@@ -28,7 +29,7 @@ public class ShelterController {
     @GetMapping("/findShelters")
     public String findShelters() throws IOException {
         shelterService.saveJson();
-        shelterService.findShelter();
+        shelterService.findShelters();
 
         return "mail/default";
     }
