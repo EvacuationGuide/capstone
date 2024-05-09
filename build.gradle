@@ -24,8 +24,6 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
-	//메일 https://velog.io/@tjddus0302/Spring-Boot-%EB%A9%94%EC%9D%BC-%EB%B0%9C%EC%86%A1-%EA%B8%B0%EB%8A%A5-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0-Gmail
-	//implementation 'nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	compileOnly 'org.projectlombok:lombok'
 	runtimeOnly 'com.h2database:h2'
@@ -36,10 +34,8 @@ dependencies {
 	implementation 'com.fasterxml.jackson.core:jackson-databind'
 
 
-
 	implementation 'io.jsonwebtoken:jjwt-api:0.11.5'
 	implementation 'io.jsonwebtoken:jjwt-impl:0.11.5'
-	//implementation 'io.jsonwebtoken:jjwt-jackson:0.11.5'
 
 
 	//mail
@@ -53,7 +49,8 @@ tasks.named('test') {
 	useJUnitPlatform()
 }
 
-
-compileJava {
-	options.compilerArgs += ["-parameters"]
+//Gradle로 실행 시 한글 꺠짐 오류 해결 코드
+compileJava.options.encoding = 'UTF-8'
+tasks.withType(JavaCompile) {
+	options.encoding = 'UTF-8'
 }
