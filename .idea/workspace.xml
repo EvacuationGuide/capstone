@@ -4,16 +4,47 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="046b71c8-83e8-49d9-8de7-804a468d0e8f" name="Changes" comment="">
+    <list default="true" id="339e990f-0e0f-44c8-a438-f09aac791717" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/EvacuationGuide.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.6/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.6/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.6/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.6/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.6/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.6/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/EvacuationGuide.main.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/CapstoneDesign/EvacuationGuide/DTO/DisasterNewsDTO$DisasterNewsDTOBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/CapstoneDesign/EvacuationGuide/DTO/DisasterNewsDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/CapstoneDesign/EvacuationGuide/DTO/ShelterDTO$ShelterDTOBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/CapstoneDesign/EvacuationGuide/DTO/ShelterDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/EmailController.class.uniqueId6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/EmailService.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/KakaoController.class.uniqueId4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/KakaoService.class.uniqueId5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/Member$MemberBuilder.class.uniqueId10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/Member.class.uniqueId1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/MemberDTO$MemberDTOBuilder.class.uniqueId3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/MemberDTO.class.uniqueId7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/MemberRepository.class.uniqueId2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/Shelter.class.uniqueId8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/ShelterRepository.class.uniqueId9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/CapstoneDesign/EvacuationGuide/DTO/DisasterNewsDTO$DisasterNewsDTOBuilder.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/CapstoneDesign/EvacuationGuide/DTO/DisasterNewsDTO.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/CapstoneDesign/EvacuationGuide/DTO/MemberDTO$MemberDTOBuilder.class" beforeDir="false" />
@@ -21,7 +52,9 @@
       <change beforePath="$PROJECT_DIR$/out/production/classes/CapstoneDesign/EvacuationGuide/DTO/ShelterDTO$ShelterDTOBuilder.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/CapstoneDesign/EvacuationGuide/DTO/ShelterDTO.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/CapstoneDesign/EvacuationGuide/EvacuationGuideApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/CapstoneDesign/EvacuationGuide/controller/KaKaoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/CapstoneDesign/EvacuationGuide/controller/EmailController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/CapstoneDesign/EvacuationGuide/controller/KakaoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/CapstoneDesign/EvacuationGuide/controller/ShelterController.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/CapstoneDesign/EvacuationGuide/domain/Address.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/CapstoneDesign/EvacuationGuide/domain/DisasterNews$DisasterNewsBuilder.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/CapstoneDesign/EvacuationGuide/domain/DisasterNews.class" beforeDir="false" />
@@ -31,11 +64,21 @@
       <change beforePath="$PROJECT_DIR$/out/production/classes/CapstoneDesign/EvacuationGuide/repository/DisasterNewsRepository.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/CapstoneDesign/EvacuationGuide/repository/MemberRepository.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/CapstoneDesign/EvacuationGuide/repository/ShelterRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/CapstoneDesign/EvacuationGuide/service/KaKaoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/CapstoneDesign/EvacuationGuide/service/EmailService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/CapstoneDesign/EvacuationGuide/service/KakaoInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/CapstoneDesign/EvacuationGuide/service/KakaoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/CapstoneDesign/EvacuationGuide/service/shelter/ShelterService$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/CapstoneDesign/EvacuationGuide/service/shelter/ShelterService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/CapstoneDesign/EvacuationGuide/usefulMethod/Haversine.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/resources/application.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/json/seoul.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/static/images/kakao_login_medium_narrow.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/resources/templates/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/resources/templates/kakaoCI/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/templates/mail/default.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CapstoneDesign/EvacuationGuide/DTO/DisasterNewsDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CapstoneDesign/EvacuationGuide/DTO/ShelterDTO.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +95,12 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="EvacuationGuide" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -62,7 +110,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -70,39 +117,52 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 8
+  &quot;associatedIndex&quot;: 4
 }</component>
-  <component name="ProjectId" id="2fjWkyke2DeF4NFwcpr5vLYtbKJ" />
+  <component name="ProjectId" id="2flzQSI3exMV1mVBStFe20Nc9Cq" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.EvacuationGuideApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build capstone.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.EvacuationGuideApplicationTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Load Gradle Dependencies.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.capstone [:EvacuationGuideApplication.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.capstone.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;api__Kim&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;a5271e00ed2efbf3092ab94e77f3cf39&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;shelter__Baek&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Baek\Desktop\project\capstone\src\main\resources\json" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration name="EvacuationGuideApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="EvacuationGuide.main" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="CapstoneDesign.EvacuationGuide.EvacuationGuideApplication" />
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="capstone" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="capstone" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -111,22 +171,15 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="046b71c8-83e8-49d9-8de7-804a468d0e8f" name="Changes" comment="" />
-      <created>1714315115364</created>
+      <changelist id="339e990f-0e0f-44c8-a438-f09aac791717" name="Changes" comment="" />
+      <created>1714390437007</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1714315115364</updated>
-      <workItem from="1714315116718" duration="171000" />
-      <workItem from="1714367384103" duration="10000" />
-      <workItem from="1715064246713" duration="6862000" />
-      <workItem from="1715080409414" duration="30000" />
-      <workItem from="1715260722151" duration="2026000" />
-      <workItem from="1715264105382" duration="174000" />
-      <workItem from="1715268180060" duration="16000" />
+      <updated>1714390437007</updated>
     </task>
     <servers />
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
