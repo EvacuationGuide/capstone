@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/EvacuationGuide.main.iml" filepath="$PROJECT_DIR$/.idea/modules/EvacuationGuide.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/EvacuationGuide.iml" filepath="$PROJECT_DIR$/.idea/modules/EvacuationGuide.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/EvacuationGuide.test.iml" filepath="$PROJECT_DIR$/.idea/modules/EvacuationGuide.test.iml" />
     </modules>
   </component>
 </project>
