@@ -3,7 +3,11 @@ jwt:
 
 oauth:
   kakao:
+    token-uri: https://kauth.kakao.com/oauth/token
+    user-info-uri: https://kapi.kakao.com/v2/user/me
+    grant-type: authorization_code
     client-id: 4dc46ddb4905d21f0b32d6640e058a74
-    url:
-      auth: https://kauth.kakao.com
-      api: https://kapi.kakao.com
+    redirect-uri: http://localhost:8080/member/kakao
+
+cap:
+  key: cap123
