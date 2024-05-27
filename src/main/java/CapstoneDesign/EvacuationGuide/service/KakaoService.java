@@ -1,5 +1,6 @@
 package CapstoneDesign.EvacuationGuide.service;
 
+import CapstoneDesign.EvacuationGuide.DTO.KakaoInfo;
 import CapstoneDesign.EvacuationGuide.DTO.MemberDTO;
 import CapstoneDesign.EvacuationGuide.domain.Member;
 import CapstoneDesign.EvacuationGuide.repository.MemberRepository;
@@ -118,23 +119,10 @@ public class KakaoService {
     }
 
     public Optional<Member> ifNeedKakaoInfo(KakaoInfo kakaoInfo){
-        String kakaoEmail = kakaoInfo.getEmail();
+        String kakaoEmail = kakaoInfo.getMail();
         Optional<Member> kakaoMember = memberRepository.findByMail(kakaoEmail);
         if (kakaoMember.isEmpty()) {
-            String kakaoNickname = kakaoInfo.getNickname();
-            // 이메일로 임시 id 발급
-            int idx= kakaoEmail.indexOf("@");
-            String kakaoId = kakaoEmail.substring(0, idx);
-            // 임시 password 발급 - random UUID
-            String tempPassword = UUID.randomUUID().toString();
-
-            MemberDTO memberDTO = MemberDTO.builder()
-                    .password(tempPassword)
-                    .mail(kakaoEmail)
-                    .nickname(kakaoNickname)
-                    .build();
-
-            Member member = memberDTO.toEntity();
+            Member member = kakaoInfo.toEntity();
 
             memberRepository.save(member);
 

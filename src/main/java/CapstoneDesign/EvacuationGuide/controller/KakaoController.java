@@ -2,7 +2,7 @@ package CapstoneDesign.EvacuationGuide.controller;
 
 import CapstoneDesign.EvacuationGuide.domain.Member;
 import CapstoneDesign.EvacuationGuide.repository.MemberRepository;
-import CapstoneDesign.EvacuationGuide.service.KakaoInfo;
+import CapstoneDesign.EvacuationGuide.DTO.KakaoInfo;
 import CapstoneDesign.EvacuationGuide.service.KakaoService;
 import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.core.JsonProcessingException;
@@ -50,7 +50,7 @@ public class KakaoController {
         }catch (JsonParseException e){
             throw new RuntimeException(e);
         }
-        System.out.println("kakaoInfo.getEmail() = " + kakaoInfo.getEmail());
+        System.out.println("kakaoInfo.getEmail() = " + kakaoInfo.getMail());
 
         Optional<Member> kakaoMember = ks.ifNeedKakaoInfo(kakaoInfo);
         log.info("로그인 유저 = {}",kakaoMember);

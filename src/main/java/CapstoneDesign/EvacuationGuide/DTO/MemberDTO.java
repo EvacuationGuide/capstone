@@ -8,21 +8,18 @@ import lombok.*;
 @NoArgsConstructor
 public class MemberDTO {
 
-    private String password;
     private String mail;
     private String nickname;
 
 
     @Builder
-    public MemberDTO(String password, String mail, String nickname){
-        this.password = password;
+    public MemberDTO(String mail, String nickname){
         this.mail = mail;
         this.nickname = nickname;
     }
 
     public Member toEntity(){
         return Member.builder()
-                .password(password)
                 .mail(mail)
                 .nickname(nickname)
                 .build();

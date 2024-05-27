@@ -12,11 +12,8 @@ import lombok.*;
 public class Member {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "shelter_id")
     private Long id;
 
-    private String password;
     private String mail;
     private String nickname;
 
