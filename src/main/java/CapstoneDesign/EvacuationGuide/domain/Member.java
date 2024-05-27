@@ -20,10 +20,12 @@ public class Member {
     private String mail;
     private String nickname;
 
-    private boolean pushAlarm;
+    private Double latitude;
+    private Double longitude;
 
-//    private Address address;
-//    private Address work1;
-//    private Address work2;
-//    private Address work3;
+    public void updateLocation(Double latitude, Double longitude) {
+        this.latitude = latitude;
+        this.longitude = longitude;
+    }
+
 }
