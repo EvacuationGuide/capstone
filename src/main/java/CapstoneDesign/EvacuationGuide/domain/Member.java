@@ -22,8 +22,11 @@ public class Member {
 
     private boolean pushAlarm;
 
-//    private Address address;
-//    private Address work1;
-//    private Address work2;
-//    private Address work3;
+    //ID는 @GerneratedValue로 자동 생성해주니, Id 필드 제외한 나머지 필드만으로 생성해주는 생성자
+    public Member(String password, String mail, String nickname, boolean pushAlarm) {
+        this.password = password;
+        this.mail = mail;
+        this.nickname = nickname;
+        this.pushAlarm = pushAlarm;
+    }
 }

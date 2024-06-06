@@ -35,10 +35,22 @@ dependencies {
 
 	implementation 'io.jsonwebtoken:jjwt-api:0.11.5'
 	implementation 'io.jsonwebtoken:jjwt-impl:0.11.5'
-	//implementation 'io.jsonwebtoken:jjwt-jackson:0.11.5'
 	implementation 'com.fasterxml.jackson.core:jackson-databind'
+
+
+	//mail
+	implementation 'org.springframework.boot:spring-boot-starter-mail'
+
+
+
 }
 
 tasks.named('test') {
 	useJUnitPlatform()
+}
+
+//Gradle로 실행 시 한글 꺠짐 오류 해결 코드
+compileJava.options.encoding = 'UTF-8'
+tasks.withType(JavaCompile) {
+	options.encoding = 'UTF-8'
 }
