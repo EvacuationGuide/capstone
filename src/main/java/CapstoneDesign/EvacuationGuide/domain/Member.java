@@ -16,6 +16,9 @@ public class Member {
 
     private String mail;
     private String nickname;
+    private String password;
+
+    private boolean pushAlarm;
 
     private Double latitude;
     private Double longitude;
