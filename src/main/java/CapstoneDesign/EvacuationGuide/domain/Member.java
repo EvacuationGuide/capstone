@@ -22,11 +22,18 @@ public class Member {
 
     private boolean pushAlarm;
 
-    //ID는 @GerneratedValue로 자동 생성해주니, Id 필드 제외한 나머지 필드만으로 생성해주는 생성자
+    private Double latitude;
+    private Double longitude;
+
     public Member(String password, String mail, String nickname, boolean pushAlarm) {
         this.password = password;
         this.mail = mail;
         this.nickname = nickname;
         this.pushAlarm = pushAlarm;
+    }
+
+    public void updateLocation(Double latitude, Double longitude) {
+        this.latitude = latitude;
+        this.longitude = longitude;
     }
 }
